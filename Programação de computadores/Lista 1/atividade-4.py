@@ -12,7 +12,6 @@ elif(DD2 < DD1 and DM2 == DM1):
 elif(DD2 == DD1 and DM2 == DM1):
     print('Ambas são as mesma data')
     sys.exit()
-#if(1 > DD1 > 31 or 1 > DD2 > 31 and DM1 == 1,3,5,7,8,10,12 or DM2 == 1,3,5,7,8,10,12):
 if(DD1 < 1):
     print('Dia inválido.')
     sys.exit()
@@ -23,6 +22,18 @@ elif(DD1 > 30 and (DM1 == 4 or DM1 == 6 or DM1 == 9 or DM1 == 11)):
     print('Dia inválido.')
     sys.exit()
 elif(DD1 > 28 and DM1 == 2):
+    print('Dia inválido.')
+    sys.exit()
+if(DD2 < 1):
+    print('Dia inválido.')
+    sys.exit()
+elif(DD2 > 31 and (DM2 == 1 or DM2 == 3 or DM2 == 5 or DM2 == 7 or DM2 == 8 or DM2 == 10 or DM2 == 12)):
+    print('Dia inválido.')
+    sys.exit()
+elif(DD2 > 30 and (DM2 == 4 or DM2 == 6 or DM2 == 9 or DM2 == 11)):
+    print('Dia inválido.')
+    sys.exit()
+elif(DD2 > 28 and DM2 == 2):
     print('Dia inválido.')
     sys.exit()
 if(DM1 == 1):
