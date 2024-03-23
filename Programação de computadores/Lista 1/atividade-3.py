@@ -28,7 +28,6 @@ print(f'O tempo da viagem em segundos é de {TV}')
 # VMM = Velocidade média em movimento
 VM = DP//((TV/60)/60)
 print(f'O carro se manteve em {int(VM)} Km/h durante a viagem completa')
-#print((TV - SD)/60/60)
 VMM = DP//(((TV - SD)/60)/60)
 print(f'O carro se manteve em {int(VMM)} Km/h durante o movimento')
 
