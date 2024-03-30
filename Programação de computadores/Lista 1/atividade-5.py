@@ -19,11 +19,6 @@ else:
     TP += (8.00 * 2) + (5.00 * 2) + (3.00 * ((x//60) - 4))
     if(x/60 - x//60 > 0):
         TP += 3.00
-
-
-
-  
-
 print(f'o Carro passou {x//60} horas e tem de pagar {TP} reais no total')
 sys.exit()
 

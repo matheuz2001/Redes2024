@@ -1,26 +1,38 @@
 x = float(input("Informe um valor positivo: "))
+#Notas de 100
 x100 = x//100
 x = round(x - (x100*100),2)
+#Notas de 50
 x50 = x//50
 x = round(x - (x50*50),2)
+#Notas de 20
 x20 = x//20
 x = round(x - (x20*20),2)
+#Notas de 10
 x10 = x//10
 x = round(x - (x10*10),2)
+#Notas de 5
 x5 = x//5
 x = round(x - (x5*5),2)
+#Notas de 2
 x2 = x//2
 x = round(x - (x2*2),2)
+#Notas de 1
 x1 = x//1
 x = round(x - x1,2)
+#Moedas de 50
 x050 = x//0.5
 x = round(x - (x050 * 0.5),2)
+#Moedas de 25
 x025 = x//0.25
 x = round(x - (x025 * 0.25),2)
+#Moedas de 10
 x010 = x//0.10
 x = round(x - (x010 * 0.1),2)
+#Moedas de 5
 x005 = x//0.05
 x = round(x - (x005 * 0.05),2)
+#Moedas de 1
 x001 = x//0.01
 print(f'O troco total é de:')
 if(x100 > 0):

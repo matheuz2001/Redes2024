@@ -3,6 +3,19 @@ DD1 = int(input("Informe o dia da primeira data: "))
 DM1 = int(input("Informe o mês da primeira data: "))
 DD2 = int(input("Informe o dia da segunda data: "))
 DM2 = int(input("Informe o mês da segunda data: "))
+#Número de dias de cada mês de um ano não bissexto
+#1  janeiro 31 
+#2  fevereiro 28
+#3  março 31
+#4  abril 30
+#5  maio 31
+#6  junho 30
+#7  julho 31
+#8  agosto 31
+#9  setembro 30
+#10 outubro 31
+#11 novembro 30
+#12 dezembro 31
 if(DM2 < DM1):
     print('A segunda data é mais recente que a primeira')
     sys.exit()
@@ -110,16 +123,4 @@ elif(DM2 == 12):
     Dias2 = 31 - DD2
 else:
     print('mês inexistente')
-#1  janeiro 31 
-#2  fevereiro 28 (J+F+M+A+MA+J+JL+AG+S+O+N+D)
-#3  março 31
-#4  abril 30
-#5  maio 31
-#6  junho 30
-#7  julho 31
-#8  agosto 31
-#9  setembro 30
-#10 outubro 31
-#11 novembro 30
-#12 dezembro 31
 print(f'A diferença de dias é de {Dias1 - Dias2}')
