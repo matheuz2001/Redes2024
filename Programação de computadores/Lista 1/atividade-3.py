@@ -7,7 +7,7 @@ SD = int(input("Quanto tempo em segundos se passou em descanso? "))
 LG = int(input("Quanto de combustível em litros foi gasto? "))
 PC = int(input("Qual o preço em real do litro do combustível? "))
 DP = int(input("Em quilômetros, qual a distância percorrida? "))
-if(HP < 0 or MP < 0 or HD < 0 or MD < 0 or SD < 0 or LG < 0 or PC < 0 or DP < 0):
+if(HP < 0 or MP < 0 or HD < 0 or MD < 0 or SD < 0 or LG =< 0 or PC =< 0 or DP =< 0):
     print('Entrada invalida')
     sys.exit
 #A). Tempo da viagem (Em segundos)
