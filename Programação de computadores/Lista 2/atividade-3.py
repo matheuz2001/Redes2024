@@ -1,4 +1,4 @@
-n = int(input("Digite a quantia de primos"))
+n = int(input("Digite a quantia de primos: "))
 for i in range(2, n):
     primo = True
     for j in range(2, i // 2 + 1):
